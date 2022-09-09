@@ -1,2 +1,0 @@
-sun technology :  java, jsp, servlets
-open source javascript : react js, angular js

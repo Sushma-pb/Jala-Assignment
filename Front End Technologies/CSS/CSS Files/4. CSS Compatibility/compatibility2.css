@@ -1,0 +1,13 @@
+ul.a {
+    list-style-type: circle; /*specifying list style icons*/
+  }
+  ul.b {
+    list-style-type: square; /*specifying list style icons*/
+  }
+  ol.c {
+    list-style-type: upper-roman; /*specifying list style icons*/
+  }
+  ol.d {
+    list-style-type: lower-alpha; /*specifying list style icons*/
+  }
+  

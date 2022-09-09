@@ -1,0 +1,16 @@
+body {
+    /*this is for the scroll box and text box*/
+    background-color: #e7e9eb;
+  }
+  #myDIV {
+    /*this the scroll text box*/
+    height: 300px;
+    background-color: #ffffff;
+  }
+  .ex1 {
+    /*this is the text column itself*/
+    background-color: lightblue;
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+  }

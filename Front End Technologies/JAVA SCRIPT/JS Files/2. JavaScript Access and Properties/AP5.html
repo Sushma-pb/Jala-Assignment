@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Addign properties with object prototype</h2>
+
+    <p id="demo"></p>
+
+    <script>
+      function Person(first, last, age, eye) {
+        this.firstName = first;
+        this.lastName = last;
+        this.age = age;
+        this.eyeColor = eye;
+      }
+
+      Person.prototype.nationality = "Indian";
+
+      const me = new Person("Sushma", "Badiger", 22, "brown");
+      document.getElementById("demo").innerHTML ="My nationality is " + me.nationality;
+    </script>
+  </body>
+</html>

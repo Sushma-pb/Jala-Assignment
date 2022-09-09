@@ -1,0 +1,45 @@
+<!--Apply different visibility by an element (visibility: hidden, visible, collapse)
+   and use different types of display for an 
+   element (display: none, inline, block, contents, list-item)-->
+   <!DOCTYPE html>
+   <html>
+     <head>
+       <style>
+         h2.a {
+           /*here is the code for making an element visible of hidden as you can see*/
+           visibility: visible;
+         }
+   
+         h2.b {
+           visibility: hidden;
+         }
+         tr.collapse {
+           visibility: collapse;
+         }
+         table,
+         td {
+           border: 1px solid black;
+         }
+       </style>
+     </head>
+     <body>
+       <h1>Applying different visibilty options</h1>
+   
+       <h2 class="a">This heading is visible</h2>
+   
+       <h2 class="b">This heading is hidden</h2>
+   
+       <p>hidden heading still takes up space on the page</p>
+       <table>
+         <tr>
+           <td>K</td>
+           <td>Rahul</td>
+         </tr>
+         <tr class="collapse">
+           <td>Rahul</td>
+           <td>K</td>
+         </tr>
+       </table>
+     </body>
+   </html>
+   

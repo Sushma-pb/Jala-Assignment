@@ -1,0 +1,41 @@
+/*below are the attributes for each type of css blocks*/
+div.static {
+    position: static;
+    border: 3px solid #ff92ff;
+  }
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #ff92ff;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 1000;
+    right: 500;
+    width: 300px;
+    border: 3px solid #ff92ff;
+  }
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #ff92ff;
+  }
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #ff92ff;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #ff38ff;
+    border: 2px solid #ff92ff;
+  }
+  

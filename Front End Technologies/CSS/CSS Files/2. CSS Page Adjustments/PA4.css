@@ -1,0 +1,41 @@
+#div-0 {
+    padding: 20px; /*this is to specify the padding dimensions*/
+  }
+  #div-1 {
+    padding-top: 20px; /*this is to specify the padding top dimensions*/
+  }
+  #div-2 {
+    margin: 30px 60px 90px; /*this is to specify the margin dimensions*/
+  }
+  #div-3 {
+    margin: 30px 60px 90px 120px; /*this is to specify the margin dimensions*/
+  }
+  
+  /* other styling */
+  .container {
+    background-color: #00bda5;
+    display: inline-block;
+    margin: 10px;
+  }
+  div {
+    /* other styling */
+    background-color: #ff7a59;
+    color: #2d3e50;
+    font-family: "Avenir";
+    font-weight: bold;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .child {
+    background-color: #ff7a59;
+    border-radius: 10px;
+    color: #2d3e50;
+    font-family: "Avenir";
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  

@@ -1,0 +1,24 @@
+body,
+html {
+  height: 100%;
+}
+/* this is to specify the image attributes like alignment size etc*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://d2n9h2wits23hf.cloudfront.net/image/v1/static/6057949432001/1aa38de4-a330-4641-9280-ff5c217642bf/94f4e009-bc93-4e89-b1fd-3ec61e083a13/1280x720/match/image.jpg?Key-Pair-Id=APKAINLZLPQXMZG2IC5A&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kMm45aDJ3aXRzMjNoZi5jbG91ZGZyb250Lm5ldC9pbWFnZS92MS9zdGF0aWMvNjA1Nzk0OTQzMjAwMS8xYWEzOGRlNC1hMzMwLTQ2NDEtOTI4MC1mZjVjMjE3NjQyYmYvOTRmNGUwMDktYmM5My00ZTg5LWIxZmQtM2VjNjFlMDgzYTEzLzEyODB4NzIwL21hdGNoL2ltYWdlLmpwZyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NDYyNDcwNTB9fX1dfQ__&Signature=Q73OzIjzLVKX~yCHkQhIfsfG~ySVBjGjBdW9of4xJhjZeCdwcXnhYwuf8oNmx66Y5bx~aGZasdoX22WR~5vAGgxMSGvG7MX-iG5~BjXA~SWfeo5XxoQUCxkNuzBYTsCp5OWJke4ij-gF5-U37gv09yisCowNCwV5tQfs0csN-L7fQZvrTSdt748G5BUeGtHYmlbUWrFx0nn4~56XrUwgOUqyhsZ1IG2NcyNVaPPcZBpGtfbXNsJpoAD6U69yvUMOJaQmKg5C3e9fQtFIhpDBgwPijjf-KcGJgtX6lKIq05EWro3F~1vjOIrexGrWLRBe5UbAeSKnOvLMUm8vnuOUBw__");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* this is to specify the text attributes on the image
+like alignment size colour etc*/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

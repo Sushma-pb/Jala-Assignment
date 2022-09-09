@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Accessing JSON obj with dot notation</h2>
+    <p id="demo"></p>
+
+    <script>
+      const myJSON = '{"name":"Ayush", "age":20, "car":null}';
+      const myObj = JSON.parse(myJSON);
+      document.getElementById("demo").innerHTML = myObj.name;
+    </script>
+  </body>
+</html>

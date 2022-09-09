@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #f321d0;
+    padding: 10px;
+  } /* this is for grid inner style*/
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #fda3ee;
+    padding: 10px;
+  } /* this is for grid inner style when hovering*/
+  
+  .grid-item {
+    background-color: #cc00aa;
+    border: 1px solid #000000cc;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  } /* this is for the text inside*/
+  

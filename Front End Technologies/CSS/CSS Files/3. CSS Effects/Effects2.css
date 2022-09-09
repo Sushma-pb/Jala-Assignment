@@ -1,0 +1,48 @@
+.box {
+    /*these are the properties of the moving box in the web page*/
+    background-color: #663399;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    animation-name: rotate; /*we specify the type of animation and also its parameters*/
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-delay: 2s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .pagination {
+    /*these are the properties of the below pagination 
+    these specify the basic size and colour when hovering and also style*/
+    display: inline-block;
+  }
+  .pagination a {
+    border: 1.5px solid #ffbcfc;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  .pagination a {
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #663399;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #d8b4fc;
+  }
+  

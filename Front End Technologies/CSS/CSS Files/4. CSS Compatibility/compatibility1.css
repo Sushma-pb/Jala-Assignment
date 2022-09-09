@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+table.b {
+  table-layout: fixed; /* specifying table as fixed entity*/
+  width: 180px;
+}
+
+table.c {
+  table-layout: auto; /* specifying table as auto entity*/
+  width: 100%;
+}

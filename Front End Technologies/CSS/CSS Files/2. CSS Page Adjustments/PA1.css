@@ -1,0 +1,55 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+/*here is the code for changing the colour of block when mouse 
+is hovering over it */
+tr {
+  position: relative;
+  z-index: 1;
+  top: var(--rowCount);
+}
+
+td {
+  border: solid 1px black;
+  border-style: solid none;
+  padding: 10px;
+}
+
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+tr:last-child td {
+  border-bottom: solid 1px black;
+}
+
+tr:hover {
+  z-index: 5;
+}
+
+tr:hover td {
+  border-color: #12a0f8;
+  border-style: solid none;
+  padding: 10px;
+}
+
+tr:hover td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+tr:hover td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}

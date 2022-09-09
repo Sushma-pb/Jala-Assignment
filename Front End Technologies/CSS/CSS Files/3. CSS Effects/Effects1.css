@@ -1,0 +1,24 @@
+.pic {
+    width: 1920px;
+    height: 1080px;
+    opacity: 1; /*pic opacity*/
+    filter: alpha(opacity=100);
+    background: url(https://www.formula1.com/content/dam/fom-website/manual/Misc/2022manual/WinterFebruary/AstonMartinAMR22/FLM2201_125100177A5603.jpg)
+      no-repeat;
+  }
+  .pic:hover {
+    opacity: 0.5; /*pic opacity when hovering the mouse*/
+    filter: alpha(opacity=30);
+  }
+  .pic:hover {
+    /*pic border shadow when hovering*/
+    -moz-box-shadow: 0 0 150px rgb(134, 255, 64);
+    -webkit-box-shadow: 0 0 150px rgb(134, 255, 64);
+    box-shadow: 0 0 150px rgb(134, 255, 64);
+  }
+  p {
+    color: navy;
+  
+    text-transform: uppercase;
+  }
+  

@@ -1,0 +1,10 @@
+img {
+    /*opacity when the page loads */
+    opacity: 0.3;
+  }
+  
+  img:hover {
+    /*opacity when you hover */
+    opacity: 1;
+  }
+  
